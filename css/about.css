@@ -117,27 +117,25 @@ header {
     padding-bottom: 20px;  
 }
 
-
-
-.middle-content {
-    margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
+.middle-content div {
+    width: 49%;
+    padding: 15px;
 }
 
+.middle-content-1 {
+    margin: 30px 95px 0 0px;
+    padding-left: 70px;  
+    /* display: flex;
+    justify-content: space-between; */
+  }
 
+.left-content {
+    border: 1px dashed black;
+}
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 footer {
