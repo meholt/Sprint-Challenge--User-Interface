@@ -72,7 +72,7 @@ p {
 }
 
 header {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 50px;
     margin-top: 30px;
     display: flex;
@@ -130,7 +130,7 @@ header {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {

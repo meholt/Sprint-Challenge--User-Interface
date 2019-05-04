@@ -72,7 +72,7 @@ p {
 }
 
 header {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 50px;
     margin-top: 30px;
     display: flex;
@@ -117,17 +117,16 @@ header {
     padding-bottom: 20px;  
 }
 
-
 .middle-content-1 {
     margin: 30px 25px 0 0px;
-    padding-left: 20px;  
+    padding-left: 10px;  
     display: flex;
     justify-content: space-between;
   }
 
 .middle-content-2 {
     margin: 60px 25px 0 0px;
-    padding-left: 20px;  
+    padding-left: 10px;  
     display: flex;
     justify-content: space-between;
   }
@@ -142,9 +141,17 @@ header {
     border-bottom: 1px dashed black;
 }
 
+.middle-content-1 div img {
+    padding-bottom: 12px;
+}
+
+.middle-content-2 div img {
+    padding-bottom: 12px;
+}
+
 .bottom-content {
     padding: 15px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 footer {
