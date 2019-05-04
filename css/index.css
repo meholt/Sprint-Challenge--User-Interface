@@ -96,7 +96,7 @@ header {
   }
 
   .top-img {
-    width: 95%;
+    margin-bottom: 20px;
   }
 
 .top-content {
@@ -111,6 +111,10 @@ header {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container {
+    margin-left: 10px;
 }
 
 .middle-content {
@@ -140,6 +144,8 @@ header {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -157,6 +163,7 @@ header {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 10px;
 }
 
 footer nav {
