@@ -95,9 +95,9 @@ header {
     margin: 0 92px 0 0;
   }
 
-  .top-img {
-    margin-bottom: 20px;
-  }
+.top-img {
+    margin-bottom: 5px;
+}
 
 .top-content {
     display: flex;
@@ -107,101 +107,56 @@ header {
     border-bottom: 1px dashed black;
 }
 
+.about-text {
+    padding: 15px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.text-container {
-    margin-left: 10px;
+.middle-content-1 {
+    margin: 30px 25px 0 0px;
+    padding-left: 10px;  
+    display: flex;
+    justify-content: space-between;
+  }
+
+.middle-content-2 {
+    margin: 60px 25px 0 0px;
+    padding-left: 10px;  
+    display: flex;
+    justify-content: space-between;
+  }
+
+.left-content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
+.right-content {
+    margin-left: 35px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content-1 div img {
+    padding-bottom: 12px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    background: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#box-1 {
-    background: teal;
-}
-
-#box-2 {
-    background-color: gold;
-}
-
-#box-3 {
-    background-color: cadetblue;
-}
-
-#box-4 {
-    background-color: coral;
-}
-
-#box-5 {
-    background-color: crimson;
-}
-
-#box-6 {
-    background-color: forestgreen;
-}
-
-#box-7 {
-    background-color: darkorchid;
-}
-
-#box-8 {
-    background-color: hotpink;
-}
-
-#box-9 {
-    background-color: indigo;
-}
-
-#box-10 {
-    background-color: dodgerblue;
+.middle-content-2 div img {
+    padding-bottom: 12px;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding: 15px;
+    margin: 20px auto;
 }
 
 footer {
     width: 100%;
     background: black;
-    margin-bottom: 10px;
 }
 
 footer nav {
